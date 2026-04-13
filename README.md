@@ -26,12 +26,4 @@ The website highlights my academic achievements, professional projects, and tech
 
 The purpose of this project is to create a **professional online presence** where my technical expertise, projects, and achievements can be showcased in a structured and accessible format. It serves as a personal portfolio to demonstrate my skills and attract potential employers, collaborators, and opportunities in the technology domain.
 
-## 🚀 Live Demo
 
-You can explore the website here:
-*(Add your deployed website link here)*
-
-## 📌 Author
-
-**Shambhavi Shukla**
-Computer Science Engineer | Data Science Enthusiast

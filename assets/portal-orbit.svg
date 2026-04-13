@@ -1,0 +1,69 @@
+<svg width="920" height="920" viewBox="0 0 920 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="920" height="920" rx="40" fill="#071117"/>
+  <rect x="56" y="56" width="808" height="808" rx="34" fill="url(#panelGlow)"/>
+
+  <circle cx="706" cy="160" r="138" fill="#74E0C6" fill-opacity="0.14"/>
+  <circle cx="188" cy="718" r="168" fill="#FFB75C" fill-opacity="0.12"/>
+  <circle cx="462" cy="450" r="250" fill="url(#fieldGlow)" fill-opacity="0.42"/>
+
+  <g opacity="0.18">
+    <path d="M178 260C286 160 434 118 578 142C694 162 781 229 823 330" stroke="#E9F5F2" stroke-width="2"/>
+    <path d="M128 588C162 709 258 804 382 838C520 876 664 832 764 730" stroke="#E9F5F2" stroke-width="2"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M248 542C307 443 424 384 545 396C625 404 702 443 754 506" stroke="#D9EEE8" stroke-opacity="0.35" stroke-width="3"/>
+    <path d="M254 617C347 702 494 730 610 679C673 651 723 603 760 543" stroke="#D9EEE8" stroke-opacity="0.18" stroke-width="3"/>
+    <path d="M266 423C328 318 445 252 568 264C655 272 734 318 789 392" stroke="#D9EEE8" stroke-opacity="0.12" stroke-width="2"/>
+  </g>
+
+  <g>
+    <rect x="186" y="176" width="548" height="568" rx="28" fill="#091821" stroke="#D5ECE6" stroke-opacity="0.1"/>
+    <rect x="218" y="208" width="484" height="504" rx="24" fill="#0A1D27"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="314" cy="314" r="16" fill="#74E0C6"/>
+    <circle cx="470" cy="282" r="12" fill="#EAF7F3"/>
+    <circle cx="607" cy="340" r="14" fill="#FFB75C"/>
+    <circle cx="644" cy="512" r="16" fill="#8EBEFF"/>
+    <circle cx="514" cy="618" r="14" fill="#EAF7F3"/>
+    <circle cx="340" cy="584" r="13" fill="#FF8A7D"/>
+    <circle cx="284" cy="456" r="11" fill="#EAF7F3"/>
+  </g>
+
+  <g stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M314 314L470 282L607 340L644 512L514 618L340 584L284 456L314 314Z" stroke="#C9EDE4" stroke-opacity="0.34"/>
+    <path d="M470 282L514 618" stroke="#74E0C6" stroke-opacity="0.35"/>
+    <path d="M314 314L644 512" stroke="#FFB75C" stroke-opacity="0.26"/>
+    <path d="M284 456L607 340" stroke="#8EBEFF" stroke-opacity="0.22"/>
+    <path d="M340 584L470 282" stroke="#FF8A7D" stroke-opacity="0.22"/>
+  </g>
+
+  <g>
+    <rect x="252" y="244" width="158" height="92" rx="18" fill="#102833" stroke="#D7ECE7" stroke-opacity="0.1"/>
+    <text x="280" y="280" fill="#FFB75C" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="16" letter-spacing="3">AI FOCUS</text>
+    <text x="280" y="308" fill="#EAF7F3" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="24" font-weight="700">Build + Learn</text>
+  </g>
+
+  <g>
+    <rect x="486" y="590" width="164" height="96" rx="18" fill="#102833" stroke="#D7ECE7" stroke-opacity="0.1"/>
+    <text x="514" y="626" fill="#74E0C6" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="15" letter-spacing="3">NEXT STEP</text>
+    <text x="514" y="654" fill="#EAF7F3" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="23" font-weight="700">Global Master's</text>
+  </g>
+
+  <circle cx="461" cy="452" r="34" fill="#EAF7F3"/>
+  <circle cx="461" cy="452" r="67" stroke="#EAF7F3" stroke-opacity="0.12" stroke-width="2"/>
+  <circle cx="461" cy="452" r="121" stroke="#EAF7F3" stroke-opacity="0.08" stroke-width="2"/>
+
+  <defs>
+    <radialGradient id="panelGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(460 460) rotate(90) scale(404)">
+      <stop stop-color="#0B202A"/>
+      <stop offset="1" stop-color="#061018"/>
+    </radialGradient>
+    <radialGradient id="fieldGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(462 450) rotate(90) scale(250)">
+      <stop stop-color="#15333E"/>
+      <stop offset="1" stop-color="#0A1820" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

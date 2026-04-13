@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Chatbot | Shambhavi Shukla</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <canvas class="stars" id="stars"></canvas>
+  <div class="page-frame inner-page">
+    <header class="site-header">
+      <a class="brand" href="index.html">SS</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="content-wrap">
+      <section class="page-title reveal">
+        <p class="eyebrow">Resume chatbot</p>
+        <h1>Ask anything about my profile, projects, education, and career goals</h1>
+      </section>
+
+      <section class="chat-layout">
+        <aside class="chat-sidebar reveal">
+          <div class="content-card">
+            <h2>What this bot can do</h2>
+            <p>
+              This assistant is trained on my resume details and can guide you through my experience, projects, skills,
+              education, achievements, and master's in AI aspirations.
+            </p>
+          </div>
+
+          <div class="content-card">
+            <h2>Assistant mode</h2>
+            <div class="mode-stack">
+              <button class="mode-chip is-active" id="offline-mode" type="button">Resume Mode</button>
+              <button class="mode-chip" id="api-mode" type="button">AI API Mode</button>
+              <button class="mode-chip" id="voice-toggle" type="button">Voice Off</button>
+            </div>
+            <p class="small-note">
+              Resume Mode works instantly with built-in resume knowledge. AI API Mode becomes available after you add API settings in `chatbot-config.js`.
+            </p>
+          </div>
+
+          <div class="content-card">
+            <h2>Quick prompts</h2>
+            <div class="prompt-list">
+              <button class="prompt-chip" data-prompt="Tell me about Shambhavi's education.">Education</button>
+              <button class="prompt-chip" data-prompt="What experience does Shambhavi have?">Experience</button>
+              <button class="prompt-chip" data-prompt="Which AI projects has Shambhavi built?">AI Projects</button>
+              <button class="prompt-chip" data-prompt="What skills does Shambhavi have?">Skills</button>
+              <button class="prompt-chip" data-prompt="Why does Shambhavi want to pursue a master's in AI abroad?">Master's Goal</button>
+              <button class="prompt-chip" data-prompt="How can I contact Shambhavi?">Contact</button>
+            </div>
+          </div>
+        </aside>
+
+        <section class="chat-shell reveal">
+          <div class="chat-window" id="chat-window">
+            <article class="message bot">
+              <span class="message-role">Resume Guide</span>
+              <div class="message-body">
+                <p>
+                  Hello, I am Shambhavi's resume chatbot. You can ask me about education, experience, projects, skills,
+                  leadership, achievements, or her goal of pursuing a exploring more in Artificial Intelligence.
+                </p>
+              </div>
+              <div class="suggestion-row">
+                <button class="suggestion-chip" type="button" data-prompt="Give me a summary of Shambhavi for a university application.">University Summary</button>
+                <button class="suggestion-chip" type="button" data-prompt="What are Shambhavi's strongest AI projects?">Strongest AI Projects</button>
+              </div>
+            </article>
+          </div>
+
+          <form class="chat-form" id="chat-form">
+            <label class="sr-only" for="chat-input">Ask a question</label>
+            <input id="chat-input" name="chat-input" type="text" placeholder="Ask something about the resume..." autocomplete="off">
+            <button class="button primary" type="submit">Send</button>
+          </form>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+  <script src="chatbot-config.js"></script>
+  <script src="resume-chatbot.js"></script>
+</body>
+</html>

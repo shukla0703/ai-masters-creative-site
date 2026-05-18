@@ -18,7 +18,7 @@ const resumeKnowledge = {
     "Achieved 75 percent growth in an inspection data management application and improved data accuracy and retrieval efficiency by 40 percent.",
   ],
   projects: [
-    "Jarvis Vision: a voice-enabled AI assistant using pyttsx3, speech recognition, web automation, and OpenAI tools.",
+    "DHRUV AI - Intelligence that guides. Action that Delivers - Constructed a Python-based AI assistant using LangChain, Hugging\n            Face, DeepSearch, PyQt5, pyttsx3, and SpeechRecognition for conversational AI, voice interaction, intelligent automation, and\n            GUI-based assistant functionalities. Implemented modular architecture, memory services, and web/system control features.",
     "BiDocGen: an AI-powered documentation generator built with LangChain, OpenAI, and Streamlit.",
     "Diabetes Detective: a predictive analytics project using Jupyter Notebook, Pandas, and NumPy.",
     "Guardian of Cyber Realms: a bug bounty and security analysis project focused on vulnerability discovery and reporting.",
@@ -63,7 +63,7 @@ const resumeCards = {
     { label: "Earlier Role", value: "CS Intern, Ohmium Operation Private Limited" },
   ],
   projects: [
-    { label: "Jarvis Vision", value: "Voice AI assistant with speech and OpenAI tools" },
+    { label: "DHRUV AI", value: "DHRUV AI - Intelligence that guides. Action that Delivers - Constructed a Python-based AI assistant using LangChain, Hugging Face, DeepSearch, PyQt5, pyttsx3, and SpeechRecognition for conversational AI, voice interaction, intelligent automation, and GUI-based assistant functionalities. Implemented modular architecture, memory services, and web/system control features." },
     { label: "BiDocGen", value: "AI documentation generator with LangChain and Streamlit" },
     { label: "Diabetes Detective", value: "Predictive analysis with Pandas and NumPy" },
   ],
@@ -127,7 +127,7 @@ function chooseReply(question) {
     );
   }
 
-  if (query.includes("project") || query.includes("jarvis") || query.includes("bidocgen") || query.includes("diabetes") || query.includes("cyber")) {
+  if (query.includes("project") || query.includes("dhruv") || query.includes("jarvis") || query.includes("bidocgen") || query.includes("diabetes") || query.includes("cyber")) {
     return makeCardResponse(
       "Project highlights",
       resumeKnowledge.projects,

@@ -43,13 +43,13 @@
   <g>
     <rect x="252" y="244" width="158" height="92" rx="18" fill="#102833" stroke="#D7ECE7" stroke-opacity="0.1"/>
     <text x="280" y="280" fill="#FFB75C" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="16" letter-spacing="3">AI FOCUS</text>
-    <text x="280" y="308" fill="#EAF7F3" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="24" font-weight="700">Build + Learn</text>
+    <text x="280" y="308" fill="#EAF7F3" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="18" font-weight="700">Build + Learn</text>
   </g>
 
   <g>
     <rect x="486" y="590" width="164" height="96" rx="18" fill="#102833" stroke="#D7ECE7" stroke-opacity="0.1"/>
     <text x="514" y="626" fill="#74E0C6" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="15" letter-spacing="3">NEXT STEP</text>
-    <text x="514" y="654" fill="#EAF7F3" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="23" font-weight="700">Global Master's</text>
+    <text x="514" y="654" fill="#EAF7F3" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="18" font-weight="700">Global Master's</text>
   </g>
 
   <circle cx="461" cy="452" r="34" fill="#EAF7F3"/>

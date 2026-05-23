@@ -258,6 +258,35 @@ input {
   gap: 1.3rem;
 }
 
+.projects-summary {
+  max-width: 44rem;
+  padding: 2rem;
+  border-radius: 1.6rem;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+  margin-bottom: 2rem;
+}
+
+.projects-summary h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: var(--teal);
+}
+
+.projects-category {
+  margin-bottom: 2.5rem;
+}
+
+.category-title {
+  font-size: 2rem;
+  color: var(--teal);
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
 .chat-layout {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
@@ -571,6 +600,13 @@ input {
   min-width: 0;
   overflow-wrap: anywhere;
   word-break: break-word;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 0.5rem;
 }
 
 .reveal {
